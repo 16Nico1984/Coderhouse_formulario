@@ -1,0 +1,20 @@
+.televisores {
+  animation: nudge 5s linear infinite alternate;
+}
+
+.laptops {
+  animation: nudge 5s linear infinite alternate;
+}
+
+.celulares {
+  animation: pulse 3s ease infinite alternate,
+    nudge 5s linear infinite alternate;
+}
+
+.grid-container :after {
+  /* content: attr(class); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: deepskyblue;
+}
